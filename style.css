@@ -1,0 +1,363 @@
+
+@media only screen and (max-width: 600px) {
+  
+
+    .rover-hero-container{
+        height: 90vh;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(75, 129, 75);
+        color: white;
+        direction: rtl;
+    }
+    
+    .rover-hero-container img{
+        height: 100%;
+    }
+    
+    .div-bg{
+        /* border: red solid; */
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        direction: ltr;
+        height: 40vh;
+        width: 100%;
+    }
+    
+    .div-bg div{
+        /* border: black solid; */
+        width: 100%;
+        text-align: center;
+    }
+    
+    #img-1{
+        height: 89vh;
+        width: 100%;
+    }
+    
+    .div-h2{
+        background-color: rgb(186, 183, 183);
+        height: 12vh;
+        text-align: center;
+    }
+    
+
+    .separate-div{
+        height: 10vh;
+    }
+    
+    .separate2-div{
+        height: 5vh;
+    }
+    
+    
+    .rover-mobile-hero-container{
+        /* border: blue solid; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    
+    .factandboxContainer{
+        /* border: green solid; */
+        background-color: rgb(143, 180, 143);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+        height: 200vh;
+    }
+    
+    .rover-facts-container{
+        /* border-right: black solid; */
+        width: 90vw;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .rover-cta-box{
+        /* border: black solid; */
+        width: 60vw;
+    }
+    
+    .rover-fact-indiv-1{
+        border: black solid;
+        border-radius: 10px;
+        background-color: white;
+        width: 50vw;
+    }
+    
+    .rover-cta-box{
+        /* border: pink solid; */
+        width: 90vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-div{
+        /* border: black solid; */
+        background-color: white;
+        width: 90vw;
+        /* height: 90vh; */
+    }
+    
+    .rover-cta-header{
+        /* border: red solid; */
+        display: flex;
+        background-color: rgb(196, 196, 196);
+        justify-content: center;
+    }
+    
+    .div-rover{
+    /* border: blue solid; */
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    }
+    
+    .rover-protections{
+        width: 90vw;
+        /* border: blue solid; */
+        text-align: justify;
+    
+    }
+    
+    .content-div-div{
+        /* border: pink solid; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        height: 45vh;
+    }
+    
+    .service-img{
+        width: 5vw;
+    }
+    
+    .rover-cta{
+        display: flex;
+    
+    }
+    .book-btn{
+        background-color: green;
+        width: 90%;
+        border: none;
+        border-radius: 10px;
+    
+    }
+    
+    .rover-123-container{
+        /* border: red solid; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rover-123-item-container{
+        /* border: black solid; */
+        width: 90vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .rover-123-item{
+        /* border: blue solid; */
+        width: 20vw;
+        text-align: center;
+    }
+    
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+.rover-hero-container{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(75, 129, 75);
+    color: white;
+    direction: rtl;
+}
+
+.rover-hero-container img{
+    height: 100%;
+}
+
+.div-bg{
+    /* border: red solid; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    direction: ltr;
+    height: 40vh;
+    width: 40vw;
+}
+
+.div-bg div{
+    /* border: black solid; */
+    width: 30vw;
+}
+
+#img-1{
+    height: 89vh;
+    width: 60vw;
+}
+
+.div-h2{
+    background-color: rgb(186, 183, 183);
+    height: 10vh;
+    text-align: center;
+}
+
+
+.separate-div{
+    height: 10vh;
+}
+
+.separate2-div{
+    height: 5vh;
+}
+
+
+.rover-mobile-hero-container{
+    /* border: blue solid; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.factandboxContainer{
+    /* border: green solid; */
+    background-color: rgb(143, 180, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.rover-facts-container{
+    border-right: black solid;
+    width: 50vw;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.rover-cta-box{
+    /* border: black solid; */
+    width: 40vw;
+}
+
+.rover-fact-indiv-1{
+    border: black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 30vw;
+}
+
+.rover-cta-box{
+    /* border: pink solid; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-div{
+    border: black solid;
+    background-color: white;
+    width: 40vw;
+    height: 30vh;
+}
+
+.rover-cta-header{
+    /* border: red solid; */
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    justify-content: center;
+}
+
+.div-rover{
+/* border: blue solid; */
+display: flex;
+justify-content: space-around;
+width: 30vw;
+}
+
+.rover-protections{
+    width: 40vw;
+    /* border: blue solid; */
+
+}
+
+.content-div-div{
+    /* border: pink solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+}
+
+.service-img{
+    width: 5vw;
+}
+
+.rover-cta{
+    display: flex;
+    justify-content: center;
+    /* border: red solid; */
+}
+.book-btn{
+    background-color: green;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.rover-123-container{
+    /* border: red solid; */
+    display: flex;
+    justify-content: center;
+}
+
+.rover-123-item-container{
+    /* border: black solid; */
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rover-123-item{
+    /* border: blue solid; */
+    width: 20vw;
+    text-align: center;
+}
+
+}
